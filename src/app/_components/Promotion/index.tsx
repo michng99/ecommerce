@@ -42,7 +42,9 @@ const Promotion = () => {
       <div className={classes.textBox}>
         <h3 className={classes.title}>Deals of the Month</h3>
         <p>
-          Are you feeling thirsty after a long day of classes? Do you need a refreshing boost of energy and flavor? Don’t miss this limited-time offer and get your promotion today for only $1.99 Trust us, you’ll love it! 💛 🎁🛒
+          Are you feeling thirsty after a long day of classes? Do you need a refreshing boost of
+          energy and flavor? Don’t miss this limited-time offer and get your promotion today for
+          only $1.99 Trust us, you’ll love it! 💛 🎁🛒
         </p>
 
         <ul className={classes.stats}>
