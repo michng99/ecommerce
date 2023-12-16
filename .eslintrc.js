@@ -6,15 +6,6 @@ module.exports = {
   rules: {
     'prettier/prettier': ['error', { endOfLine: 'auto' }, { printWidth: 120 }],
     'no-console': 'off',
-    'comma-dangle': [
-      'error',
-      {
-        arrays: 'never',
-        objects: 'never',
-        imports: 'never',
-        exports: 'never',
-        functions: 'never',
-      },
-    ],
+    'comma-dangle': [2, 'always-multiline'],
   },
 }
